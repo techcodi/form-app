@@ -70,6 +70,7 @@ function App() {
             placeholder="Enter First Name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
+            required
           />
           <label htmlFor="last_name">Last Name*</label>
           <input
@@ -78,6 +79,7 @@ function App() {
             placeholder="Enter Last Name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            required
           />
           <label htmlFor="email">Enter Email*</label>
           <input
@@ -86,6 +88,7 @@ function App() {
             placeholder="Enter email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
           <label htmlFor="contact">Contact*</label>
           <input
